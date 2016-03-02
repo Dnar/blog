@@ -1,0 +1,18 @@
+<h1>Edit article</h1>
+
+<%= form_for :article, url: article_path(@article), method: :put  do |f| %> <!-- url и method - ключи хэша, :put - значение хэша-->
+	<p>
+		<%= f.label :title %><br />
+		<%= f.text_field :title %>
+	</p>
+
+	<p>
+		<%= f.label :text %><br />
+		<%= f.text_area :text %>
+	</p>
+
+	<p>
+		<%= f.submit 'Редактировать' %>
+	</p>
+
+<% end %>
