@@ -1,7 +1,3 @@
-require 'test_helper'
+require '../articles_controller'
 
-class ArticlesControllerTest < ActionController::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
-end
+post :create, mymodel: params: { article: { title: "can create", body: "article successfully." } }
