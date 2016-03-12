@@ -1,8 +1,11 @@
 class PagesController < ApplicationController
-end
 
-def about
-end
+  def about
+  
+  end
 
-def terms
+  def terms
+  
+  end
+
 end
