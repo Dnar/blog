@@ -13,7 +13,7 @@ class CommentsController < ApplicationController
   end
 
   def comment_params
-    params.require(:comment).permit(:author, :body)
+    params.require(:comment).permit(:author, :body) # require - требуем наличия парамметров --> вызывается permit, с определенными полями.
   end
 
 end
