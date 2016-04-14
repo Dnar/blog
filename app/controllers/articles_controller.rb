@@ -1,7 +1,6 @@
 class ArticlesController < ApplicationController
 
   before_filter :authenticate_user!, :only => [:new, :create]
- 
 
   def index
     @articles = Article.order 'created_at DESC'
@@ -12,14 +11,14 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @comments = Comment.order 'created_at DESC'
   end
-  
+
   def new
     @comments = Comment.order 'created_at DESC'
   end
 
   def create
     @article = Article.new(article_params)
-    
+  
     if @article.save
       redirect_to @article
     else

@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'pg'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -45,9 +47,24 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'cucumber'
+  gem 'capybara-mechanize'
+  gem 'selenium-webdriver'
   gem 'shoulda-matchers'
-  gem "factory_girl_rails"
+  gem 'factory_girl_rails'
+  gem 'guard'
+end
+
+group :test do
+  gem 'guard-rspec'
+  gem 'database_cleaner'
 end
 
 gem 'devise'
 gem 'slim'
+gem 'fuubar'
+
+
+gem 'libnotify' , :require => false if RUBY_PLATFORM =~ /linux/i
+gem 'rb-inotify', :require => false if RUBY_PLATFORM =~ /linux/i
+gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
