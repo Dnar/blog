@@ -8,14 +8,14 @@ feature "Contact creation" do
     
   end
 
-  # scenario "allows a guest to create contact" do
-  #   visit '/contacts'
-  #   fill_in :contact_email, :with => 'user@example.com'
-  #   fill_in :contact_message, :with => 'password'
-  #   click_button 'Send Message'
+  scenario "allows a guest to create contact" do
+    visit '/contacts'
+    fill_in :contact_email, :with => 'user@example.com'
+    fill_in :contact_message, :with => 'password'
+    click_button 'Send Message'
 
-  #   expect(page).to have_content 'Thanks'
+    expect(page).to have_content 'Thanks'
 
-  # end
+  end
 
 end
