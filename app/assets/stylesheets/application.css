@@ -20,3 +20,7 @@
 .field_whith_errors textarea {
 	border-color: red;
 }
+
+.content {
+  padding: 2em;
+}
