@@ -47,7 +47,6 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara-mechanize'
-  gem 'selenium-webdriver'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'guard'
@@ -56,15 +55,9 @@ end
 group :test do
   gem 'guard-rspec'
   gem 'database_cleaner'
-  gem 'bddfire'
   gem 'test-unit'
   gem 'shoulda-context'
   gem 'selwet'
-  gem 'selenium-webdriver'
-  gem 'cucumber-rails', :require => false
-  gem 'capybara-webkit'
-  gem 'capybara'
-  gem 'cucumber'
 end
 
 gem 'devise'
