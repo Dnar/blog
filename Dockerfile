@@ -7,7 +7,6 @@ RUN apt-get update \
 
 WORKDIR /usr/src/app
 COPY . /user/src/app
-COPY Gemfile* ./
 RUN bundle install
 #COPY . .
 
