@@ -11,6 +11,9 @@ development:
   <<: *default
   database: blog_development
 
-test:
+test: &test
   <<: *default
   database: blog_test
+
+cucumber:
+  <<: *test

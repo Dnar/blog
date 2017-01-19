@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
 
-  before_filter :authenticate_user!, :only => [:new, :create]
+  before_action :authenticate_user!, :only => [:new, :create]
+  before_action :authorize_action, only: [:edit, :update, :destroy]
 
   def index
     @articles = Article.order 'created_at DESC'
@@ -27,7 +28,8 @@ class ArticlesController < ApplicationController
     end
   end
 
-  def edit 
+  def edit
+    #can_edit?(@article)
     @article = Article.find(params[:id])
   end
 
@@ -52,5 +54,12 @@ class ArticlesController < ApplicationController
 
   def article_params
     params.require(:article).permit(:title, :text)
+  end
+
+  def authorize_action
+    article_permission.can_update?(user)
+    article_permission.can?(action, user)
+    user_permissions = Permissions::UsersPerm.new(current_user)
+    user_permissions.can?(action, article)
   end
 end

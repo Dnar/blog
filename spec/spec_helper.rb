@@ -4,6 +4,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'shoulda-matchers'
 require 'capybara/rspec'
+require 'selwet'
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
@@ -68,7 +69,7 @@ Shoulda::Matchers.configure do |config|
     with.test_framework :rspec
     # with.test_framework :minitest
     # with.test_framework :minitest_4
-    # with.test_framework :test_unit
+    with.test_framework :test_unit
 
     # Choose one or more libraries:
       with.library :active_record

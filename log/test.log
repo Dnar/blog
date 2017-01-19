@@ -5242,3 +5242,184 @@ FOREIGN KEY ("user_id")
   [1m[35mActiveRecord::SchemaMigration Load (0.9ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-08-17 22:14:29 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 261ms (Views: 240.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-08-17 22:15:53 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 233ms (Views: 216.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-08-17 22:36:08 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 225ms (Views: 207.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-08-17 22:36:37 +0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 238ms (Views: 219.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:46:42 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 251ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:47:52 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 258ms (Views: 238.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:49:16 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 250ms (Views: 229.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:49:30 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 244ms (Views: 223.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:50:30 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 251ms (Views: 229.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:53:37 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 282ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:55:06 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 272ms (Views: 250.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:56:07 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 298ms (Views: 278.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:56:35 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 230ms (Views: 208.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:56:55 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 262ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:58:50 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 255ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 22:59:24 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 247ms (Views: 225.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 23:00:28 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 262ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+Started POST "/contacts" for 127.0.0.1 at 2016-08-17 23:00:28 +0300
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "contact"=>{"email"=>"", "message"=>"Hello there!"}, "commit"=>"Send Message"}
+  Rendered contacts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 2.9ms | ActiveRecord: 16.2ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/contacts" for 127.0.0.1 at 2016-08-17 23:01:34 +0300
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 256ms (Views: 236.4ms | ActiveRecord: 0.0ms)
+Started POST "/contacts" for 127.0.0.1 at 2016-08-17 23:01:34 +0300
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "contact"=>{"email"=>"", "message"=>"Hello there!"}, "commit"=>"Send Message"}
+  Rendered contacts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 2.7ms | ActiveRecord: 3.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
